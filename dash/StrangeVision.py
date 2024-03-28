@@ -28,4 +28,4 @@ plt.show()
 
 
 robot_data = cv2.CascadeClassifier("")
-found = stop_data.detectMultiScale(img_gray, minSize=(20, 20))
+found = robot_data.detectMultiScale(img_gray, minSize=(20, 20))
